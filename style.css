@@ -1,0 +1,227 @@
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(17, 18, 19);
+}
+.mon{
+    width: 100%;
+    height: 25cm;
+    margin-top: 0%;
+    background-image: url(monty-7.png);
+    background-size: cover;
+}
+.mon-1{
+    width: 100%;
+    height: 1cm;
+    align-items: center;
+    display: inline-flex;
+    /* background-color: rgb(247, 1, 1); */
+}
+.nav{
+    width: 40%;
+    margin-left: 28%;
+    margin-right: 2%;
+    /* background-color: aliceblue; */
+}
+ul{
+    width: 90%;
+    display: inline-flex;
+    margin-right: 0%;
+    /* background-color: aqua; */
+}
+.hil-2{
+    width: 20%;
+    font-size: 0.7cm ;
+    margin-left: 1cm;
+    margin-right: 0.4cm;
+    color: white;
+    text-align: center;
+    display: block;
+    transition: 1s ease;
+    /* background-color: yellowgreen; */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hil-2:hover{
+    width: 50%;
+    border-radius: 10%;
+    background-color: rgb(235, 154, 5);
+    /* cursor: pointer; */
+    transform: scale(1.2) ;
+}
+.logo{
+    width: 15%;
+    height: 3cm;
+    margin-top: 1%;
+    display: inline-flex;
+    background-size: cover;
+    /* background-color: brown; */
+}
+.srch{
+    margin-right: 1%;
+    display: inline-flex;
+}
+.content{
+    width: 50%;
+    height: 10cm;
+    margin-left: 50%;
+    /* background-color: rgba(0, 255, 255, 0.267); */
+}
+.hed{
+    font-size: 60px;
+    transition: 1s ease-in;
+}
+.hed:hover{
+    cursor: pointer;
+    color: rgb(75, 25, 25);
+    /* transform: scale(1.2); */
+    transform: translateX(12%,12%) rotateX(12deg) rotateY(34deg);
+}
+.per{
+    font-size: 30px;
+}
+.vid{
+    width: 90%;
+    margin-left:9%;
+    height: 9cm;
+    background-size: cover;
+    /* background-color: rgba(255, 255, 0, 0.432); */
+}
+.image{
+    margin-top: 14% ;
+    margin-right: 4%;
+    width: 20%;
+    height: 2.5cm;
+    background-size: cover;
+    transition: 1s ease;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.last{
+    height: 0.1cm;
+    margin-top: 2%;
+    margin-left: 20%;
+    display: inline-flex;
+    background-color: rgba(12, 12, 12, 0.185);
+}
+.col{
+    width: 100%;
+    height: 8cm;
+    display: inline-block;
+    /* margin-top: 9%; */
+    margin-left: 2%;
+    text-align: center;
+    background-position: center;
+    /* background-color: rgb(0, 125, 235); */
+}
+.hil-1{
+    width: 100%;
+    height: 1.3cm;
+    font-size: 1cm;
+    list-style: none;
+    text-align: center;
+    font-size: 1.2cm;
+    margin-bottom: 8%;
+    transition: 1s;
+}
+.hil-1:hover{
+    width: 100%;
+    font-size: 1cm;
+    border-radius: 10%;
+    background-color: rgb(235, 154, 5);
+    /* cursor: pointer; */
+    transform: scale(1.2) ;
+}
+.lhed{
+    color: white;
+    font-size: 2cm;
+    text-align: center;
+}
+.block{
+    width: 100%;
+    height: 15cm;
+    overflow: hidden;
+    margin-top: 29%;
+    /* background-color: aqua; */
+    display: block;
+}
+audio{
+    /* height: 3cm; */
+    margin-top: 8%;
+    margin-left: 20%;
+    /* background-size: cover; */
+    /* background-image: url(cat-minimal.jpg); */
+}
+
+
+@media screen and (max-width:600px) {
+    .mon{
+        width: 100%;
+        /* height: 25cm; */
+        /* margin-top: 0%; */
+        background-image: url(monty-7.png);
+        /* background-size: cover; */
+    }
+    .nav{
+        margin-left: 10%;
+        display: block;
+    }
+    ul{
+        width: 50%;
+        margin-left: 0%;
+        margin-top: 70%;
+        display: inline-block;
+        /* background-color: yellow; */
+    }
+    li{
+        margin-left: 0%;
+    }
+    .content{
+        width: 60%;
+        color: white;
+        margin-left: 5%;
+        margin-top: 40%;
+        /* background-color: yellow; */
+    }
+    audio{
+        margin-left: 5%;
+    }
+    .block{
+        width: 100%;
+        height: 50cm;
+        margin-top: 50%;
+        /* background-color: aqua; */
+    }
+    .last{
+        width: 100%;
+        height: 20cm;
+        display: block;
+        margin-left: 0%;
+        /* background-color: blue; */
+    }
+    .col{
+        width: 50%;
+        margin: 0%;
+        margin-left: 20%;
+        display: block;
+        /* background-color: yellowgreen; */
+    }
+    .hil-1{
+        color: rgb(121, 116, 116);
+        margin-top: 10%;
+        font-size: 1.2cm;
+    }
+    .hil-1:hover{
+        color: black;
+        background-color: orange;
+    }
+    .hil-2{
+        margin-left: 40%;
+        margin-bottom: 0%;
+        font-size: 1cm;
+    }
+}
